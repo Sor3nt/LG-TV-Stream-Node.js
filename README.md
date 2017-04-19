@@ -21,7 +21,9 @@ Start the Stream
 lgTv.stream({
     title: 'Test',
     url : 'http://dl2.mihanpix.com/Film/2016/Barbershop.The.Next.Cut.2016.720p.Ozlem.mp4',
+    // the poster is not needed but must be set
     poster: 'http://192.168.0.39:57645/external/video/thumbnails/6744.jpg',
+    // the duration need to match the movie length otherwise it will stop at the given position
     duration : '0:02:50.000'
 });
 ```
