@@ -11,7 +11,7 @@ var LgTv = require('./Lg.js').server;
 
 ```
 
-Create a Fire TV instance
+Create a new instance
 ```
 var lgTv = new LgTv('192.168.0.24', 37904);
 ```
